@@ -136,3 +136,7 @@ curl -d '{"title":"my-title"}' -H "Content-type: application/json" -X PATCH  htt
 ### delete
 
 ![delete](./img/delete.png)
+
+~~~~bash
+curl -X DELETE  http://localhost:3000/posts/2
+~~~~
