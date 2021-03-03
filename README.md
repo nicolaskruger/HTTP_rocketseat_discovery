@@ -140,3 +140,44 @@ curl -d '{"title":"my-title"}' -H "Content-type: application/json" -X PATCH  htt
 ~~~~bash
 curl -X DELETE  http://localhost:3000/posts/2
 ~~~~
+
+## headers
+
+![headers](./img/headers.png)
+
+### header-contexto
+
+![header-contexto](./img/header-contexto.png)
+
+## status code
+
+### 100
+
+- 100: Continue
+
+### 200
+
+- 200: OK (GET,POST)
+- 201: Created (PUT)
+- 204: No Content (DELETE,PUT)
+
+### 300
+
+- 301: Moved Permanently
+- 308: Permanent Redirect
+- 302: found
+- 307: Temporary Redirect
+
+### 400
+
+- 400: Bad Request
+- 401: Unauthorized
+- 403: Forbiden
+- 404: Not Found
+- 405: Method Not Allowed
+- 429: Too Many Request
+
+### 500
+
+- 500: internal Server Erros
+- 503: Service Unavalible
